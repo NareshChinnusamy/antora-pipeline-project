@@ -7,10 +7,11 @@ phases:
     pre_build:
         on-failure: ABORT
         commands:
-            - pwd
+            - antora --version
     build:
         commands:
             - antora --fetch antora-playbook.yml
 artifacts:
     files:
         - 'build/*'
+        - 'site.zip'

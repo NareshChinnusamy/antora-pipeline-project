@@ -7,7 +7,6 @@ phases:
     pre_build:
         on-failure: ABORT
         commands:
-            - which antora
             - pwd
     build:
         commands:

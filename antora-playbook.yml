@@ -12,5 +12,3 @@ ui:
   bundle:
     url: ./build/ui-bundle.zip
     snapshot: true
-output:
-  dir: /home/naresh/work/learning-and-development/antora/antora-output

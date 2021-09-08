@@ -10,4 +10,4 @@ phases:
             - antora --fetch antora-playbook.yml
 artifacts:
     files:
-        - 'build/*'
+        - 'build/**/*'

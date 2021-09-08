@@ -4,7 +4,7 @@ site:
   start_page: refresh-user-guide::index.adoc 
 content:
   sources: 
-  - url: ./../docs-site
+  - url: git@github.com:nareshkumar666/docs-site.git
     branches: master
 runtime:
   cache_dir: ./build/cache

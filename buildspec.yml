@@ -1,0 +1,17 @@
+version: 0.2
+
+env:
+    shell: bash
+
+phases:
+    pre_build:
+        on-failure: ABORT
+        commands:
+            - which antora
+            - pwd
+    build:
+        commands:
+            - antora --fetch antora-playbook.yml
+artifacts:
+    files:
+        - 'build/*'

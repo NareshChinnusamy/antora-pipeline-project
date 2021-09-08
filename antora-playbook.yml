@@ -1,0 +1,16 @@
+site:
+  robots: allow
+  title: Refresh Documentation
+  start_page: refresh-user-guide::index.adoc 
+content:
+  sources: 
+  - url: ./../docs-site
+    branches: master
+runtime:
+  cache_dir: ./build/cache
+ui: 
+  bundle:
+    url: ./build/ui-bundle.zip
+    snapshot: true
+output:
+  dir: /home/naresh/work/learning-and-development/antora/antora-output
